@@ -1,11 +1,11 @@
 # go-svc
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/judwhite/go-svc.svg)](https://pkg.go.dev/github.com/judwhite/go-svc)
-[![MIT License](https://img.shields.io/badge/license-MIT-007d9c)](https://github.com/judwhite/go-svc/blob/main/LICENSE)
-[![Go Report Card](https://goreportcard.com/badge/github.com/judwhite/go-svc)](https://goreportcard.com/report/github.com/judwhite/go-svc)
-[![Build Status](https://github.com/judwhite/go-svc/workflows/tests/badge.svg)](https://github.com/judwhite/go-svc/actions?query=workflow%3Atests)
+[![Go Reference](https://pkg.go.dev/badge/github.com/zerogate-it/go-svc.svg)](https://pkg.go.dev/github.com/zerogate-it/go-svc)
+[![MIT License](https://img.shields.io/badge/license-MIT-007d9c)](https://github.com/zerogate-it/go-svc/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/judwhite/go-svc)](https://goreportcard.com/report/github.com/zerogate-it/go-svc)
+[![Build Status](https://github.com/zerogate-it/go-svc/workflows/tests/badge.svg)](https://github.com/zerogate-it/go-svc/actions?query=workflow%3Atests)
 
-Go Windows Service wrapper that plays nice with Linux. Windows tests [here](https://github.com/judwhite/go-svc/blob/main/svc_windows_test.go).
+Go Windows Service wrapper that plays nice with Linux. Windows tests [here](https://github.com/zerogate-it/go-svc/blob/main/svc_windows_test.go).
 
 ## Project Status
 
@@ -14,7 +14,7 @@ Go Windows Service wrapper that plays nice with Linux. Windows tests [here](http
 
 ## Go Modules
 
-* Please note the `import` path and `go.mod` change from `github.com/judwhite/go-svc/svc` to `github.com/judwhite/go-svc` for `v1.2+`
+* Please note the `import` path and `go.mod` change from `github.com/zerogate-it/go-svc/svc` to `github.com/zerogate-it/go-svc` for `v1.2+`
 * `v1.1.3` and earlier can be imported using the previous import path
 * `v1.2+` code is backwards compatible with previous versions
 
@@ -23,11 +23,11 @@ module awesomeProject
 
 go 1.15
 
-require github.com/judwhite/go-svc v1.2.0
+require github.com/zerogate-it/go-svc v1.2.2
 ```
 
 ```go
-import "github.com/judwhite/go-svc"
+import "github.com/zerogate-it/go-svc"
 ```
 
 ## Example
@@ -39,7 +39,7 @@ import (
 	"log"
 	"sync"
 
-	"github.com/judwhite/go-svc"
+	"github.com/zerogate-it/go-svc"
 )
 
 // program implements svc.Service
